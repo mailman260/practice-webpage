@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: gray;
+}
+
+.header, .top{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    border-radius: 10%;
+}
