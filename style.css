@@ -15,11 +15,14 @@ body{
 .header, .top{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    flex: 1;
+    padding-top: 30px;
 }
 
 img{
     border-radius: 10%;
+    width: 150px;
 }
 
 li{
@@ -28,3 +31,35 @@ li{
     margin: 10px;
 }
 
+.top h1, p{
+    width: 300px;
+    margin-top: 10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(86, 121, 176);
+    width: 75px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.pic-list{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pic-list p{
+    max-width: 150px;
+}
