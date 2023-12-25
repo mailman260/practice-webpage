@@ -53,6 +53,7 @@ button{
     flex: 1;
     flex-wrap: wrap;
     gap: 100px;
+    margin-bottom: 70px;
 }
 
 h2{
@@ -62,4 +63,17 @@ h2{
 
 .pic-list p{
     max-width: 150px;
+}
+
+.section-3{
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3 q{
+    max-width: 500px;
 }
