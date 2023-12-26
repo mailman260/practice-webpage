@@ -77,3 +77,20 @@ h2{
 .section-3 q{
     max-width: 500px;
 }
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container-4{
+    display: flex;
+    background-color: teal;
+    height: 100px;
+    width:500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
